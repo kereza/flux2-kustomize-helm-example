@@ -13,4 +13,4 @@ spec:
     replicas: 3
     service:
       enabled: true
-      port: 81
+      port: 80
