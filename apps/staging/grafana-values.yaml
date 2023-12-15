@@ -9,10 +9,5 @@ spec:
       version: "7.0.17"
   test:
     enable: false
-  # values:
-  #   ingress:
-  #     hosts:
-  #       - host: podinfo.staging
-  #         paths:
-  #           - path: /
-  #             pathType: ImplementationSpecific
+    values:
+      replicas: 3
