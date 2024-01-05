@@ -10,7 +10,7 @@ spec:
   test:
     enable: false
   values:
-    replicas: 3
+    replicas: 1
     service:
       enabled: true
       port: 81
